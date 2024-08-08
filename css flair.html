@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #dafcde;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #beeb9a;
+            color: rgb(69, 123, 11);
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgb(160, 243, 179);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(119, 173, 215, 0.1);
+        }
+        .contact-info div {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .contact-info div:last-child {
+            margin-right: 0;
+        }
+        .contact-form {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #9cf4b7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #beeb9a;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shopers</h1>
+        <h2>Get in Touch With US</h2>
+    </header>
+    <div class="container">
+        <div class="contact-info">
+            <div>
+                <h3>Address</h3>
+                <p>Shopers</p>
+                <p>Sector-18</p>
+                <p>Uttar Pradesh, Noida, 201301</p>
+                <p>India</p>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p><strong>Phone:</strong> (+91) 999-0000</p>
+                <p><strong>Email:</strong> contact@Shopers.com</p>
+            </div>
+            <div>
+                <h3>OUR SERVICES</h3>
+                <p>Clothing</p>
+                <p>Electronics</p>
+                <p>Groceries</p>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <h3>Ask Any Query</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Shopers | <a href="#" style="color: rgb(250, 250, 249);">Privacy Policy</a> | <a href="#" style="color: white;">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
